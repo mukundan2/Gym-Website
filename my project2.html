@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6e3f424ef4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-flex justify-content">
+  <div class="container">
+ <i class="fa-solid fa-dumbbell me-2 text-danger"></i>
+    <a class="navbar-brand" href="#">IRON EDGE</a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3">
+         <li class="nav-item">
+          <a class="nav-link" href="my project.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="my project2.html">Programs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="my project3.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bmi.html">BMI</a>
+       <li class="nav-item">
+          <a class="btn btn-danger" href="login.html">Login</a>
+        </li>
+         <li class="nav-item">
+          <a class="btn btn-danger" href="signup.html">Signup</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+    <section id="programs" class="programs-section">
+  <h2 class=" hed mt-5">Our Programs</h2>
+  <p class="hed section-subtitle">Choose the right program to achieve your fitness goals</p>
+
+  <!-- 1st Card -->
+  <div class="d-flex align-items-center mb-5">
+    <img src="Weight train.png" class="img-fluid rounded ms-5" alt="Weight Training" style="width:45%;">
+    <div class="ms-4" style="width:50%;">
+      <h3>Weight Training</h3>
+      <p>Weight Trainingis a targeted form of strength training that involves lifting weights or using resistance to challenge your muscles and stimulate growth. By progressively increasing resistance with dumbbells, barbells, or machines, this program helps you build muscle strength and lean muscle mass, boost your metabolism, and improve overall physical conditioning. Regular weight training also enhances bone density, supports weight management, and improves posture and joint stability. With structured guidance, you’ll develop greater endurance and functional strength that makes everyday activities easier and reduces the risk of injury, while also contributing to long‑term health and fitness goals.</p>
+      
+    </div>
+  </div>
+
+  <!-- 2nd Card (reverse) -->
+  <div class="d-flex align-items-center mb-5 flex-row-reverse">
+    <img src="calisthenics train.png" class="img-fluid rounded me-3" alt="Calisthenics" style="width:45%;">
+    <div class="me-4" style="width:50%;">
+      <h3>Calisthenics</h3>
+      <p>Calisthenics is a form of training that uses your own body weight to build strength, balance, flexibility, and coordination. This program focuses on natural movements such as push-ups, pull-ups, squats, dips, and advanced skills like muscle-ups and handstands. Calisthenics improves core strength, joint stability, and overall body control while reducing the risk of injury. It is suitable for all fitness levels, from beginners to advanced athletes, and helps develop functional strength that translates directly into real-life movements. With consistent practice, calisthenics enhances endurance, mobility, and total body awareness, making you stronger, leaner, and more agile.</p>
+      
+    </div>
+  </div>
+
+  <!-- 3rd Card -->
+  <div class="d-flex align-items-center mb-5">
+    <img src="cardio.png" class="img-fluid rounded ms-5" alt="Cardio" style="width:45%;">
+    <div class="ms-4" style="width:50%;">
+      <h3>Cardio</h3>
+      <p>Cardio training focuses on improving heart health, stamina, and overall endurance through continuous and high-energy movements. This program includes activities such as treadmill running, cycling, skipping, HIIT workouts, and aerobic exercises designed to increase your heart rate and burn calories effectively. Regular cardio training helps reduce body fat, boosts metabolism, and improves lung capacity. It also enhances energy levels, reduces stress, and supports long-term health by strengthening the cardiovascular system. Suitable for all fitness levels, cardio workouts play a key role in maintaining an active and healthy lifestyle.</p>
+      
+    </div>
+  </div>
+
+  <!-- 4th Card (reverse) -->
+  <div class="d-flex align-items-center mb-5 flex-row-reverse">
+    <img src="pt.png" class="img-fluid rounded me-3" alt="Personal Training" style="width:45%;">
+    <div class="me-4" style="width:50%;">
+      <h3>Personal Training</h3>
+      <p>Personal Training provides personalized, one-on-one coaching designed specifically for your fitness goals. Our certified trainers assess your current fitness level, understand your body needs, and create customized workout plans that focus on strength, fat loss, flexibility, or overall conditioning. With continuous guidance, proper form correction, and progress tracking, personal training helps you achieve faster and safer results. This program also keeps you motivated, disciplined, and accountable, ensuring consistent improvement while minimizing the risk of injury. Whether you are a beginner or an experienced athlete, personal training offers the most effective path to reaching your fitness goals.</p>
+      
+    </div>
+  </div>
+</section>
+<section id="bmi-calculator">
+  <div class="container">
+    
+    <h2>Body Mass Index (BMI) Calculator</h2>
+    <p>
+      Use our BMI calculator to understand your body composition and
+      choose the right fitness program for your goals.
+    </p>
+
+    <form>
+      <div>
+        <label for="height">Height (cm)</label><br>
+        <input type="number" id="height" placeholder="Enter your height in cm" required>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="weight">Weight (kg)</label><br>
+        <input type="number" id="weight" placeholder="Enter your weight in kg" required>
+      </div>
+
+      <br>
+
+      <button type="button" class="weight">
+        Calculate BMI
+      </button>
+    </form>
+
+    <p>
+      Body Mass Index (BMI) is a simple indicator used to classify
+      underweight, normal weight, overweight, and obesity in adults.
+      Maintaining a healthy BMI helps improve overall fitness,
+      performance, and long-term health.
+    </p>
+
+  </div>
+</section>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

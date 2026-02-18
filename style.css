@@ -1,0 +1,161 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: black;
+
+  position: sticky;   /* or fixed */
+  top: 0;
+  z-index: 9999;      /* 🔥 MOST IMPORTANT */
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 25px; /* space between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.join-btn {
+  background: red;
+  padding: 8px 18px;
+  border-radius: 5px;
+  color: white;
+  
+}
+.logo{
+    color: white;
+}
+.lk{
+    margin-top: 6px;
+}
+.hero{
+    height: 100vh;
+    background-image: url("Landing img.png"); 
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+  
+}
+.motivation {
+  font-size: 18px;
+  opacity: 0.9;
+  margin: 15px 0;
+}
+.hero-btn {
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 12px 28px;
+  background: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: darkred;
+  transform: scale(1.05);
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.weight-join {
+    display: inline-block;
+ border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.weight-join:hover{
+    background: darkred;
+    transform: scale(1.05);
+}
+.calisthenics {
+    display: inline-block;
+ border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.calisthenics:hover{
+    background: darkred;
+    transform: scale(1.05);
+}
+.cardio {
+    display: inline-block;
+ border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.cardio:hover{
+    background: darkred;
+    transform: scale(1.05);
+}
+.pt{display: inline-block;
+ border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.pt:hover{
+    background: darkred;
+    transform: scale(1.05);
+}
+.weight {
+    display: inline-block;
+ border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.weight:hover{
+    background: darkred;
+    transform: scale(1.05);
+}
+.hed{
+    text-align: center;
+}
+.plan{
+    text-align: center;
+    margin-top: 55px;
+}
